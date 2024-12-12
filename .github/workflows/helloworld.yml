@@ -8,3 +8,7 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
+      - name: compile
+        run: g++ helloworld.cpp
+      - name: List files
+        run: ls ${{ github.workspace }}
