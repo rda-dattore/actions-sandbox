@@ -12,3 +12,5 @@ jobs:
         run: g++ helloworld.cpp
       - name: List files
         run: ls ${{ github.workspace }}
+      - name: Run program
+        run: ./a.out
