@@ -2,5 +2,6 @@ on:
   push:
     paths:
       - "helloworld.cpp"
-
 jobs:
+  runs-on: ubuntu-latest
+  steps:
