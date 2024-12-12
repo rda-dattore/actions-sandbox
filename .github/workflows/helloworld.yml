@@ -1,0 +1,6 @@
+on:
+  push:
+    paths:
+      - "helloworld.cpp"
+
+jobs:
