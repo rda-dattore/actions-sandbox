@@ -3,7 +3,8 @@ on:
     paths:
       - "helloworld.cpp"
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Check out repository code
-      uses: actions/checkout@v4
+  Run-Hello-World:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
