@@ -15,4 +15,4 @@ jobs:
       - name: Run program
         run: ./a.out
       - name: Set deployment
-        run: curl -s -f -d "hostess=rda-web-prod01.ucar.edu&build_command=/usr/local/decs/bin/metaman_deploy" "https://rda.ucar.edu/cgi-bin/cicd"
+        run: curl -s -f -d "host=rda-web-prod01.ucar.edu&build_command=/usr/local/decs/bin/metaman_deploy" "https://rda.ucar.edu/cgi-bin/cicd"
