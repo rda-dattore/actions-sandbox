@@ -2,6 +2,8 @@ on:
   pull_request:
     types:
       - closed
+    paths:
+      - "helloworld.cpp"
 jobs:
   Run-Hello-World:
     runs-on: ubuntu-latest
